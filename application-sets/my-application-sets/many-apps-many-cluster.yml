@@ -15,9 +15,9 @@ spec:
 
       # Source of the application manifests
       source:
-        repoURL: https://github.com/codefresh-contrib/gitops-cert-level-2-examples.git
+        repoURL: https://github.com/zachschatz/gitops-cert-level-2-examples.git
         targetRevision: HEAD
-        path: ./application-sets/manifests
+        path: application-sets/example-apps/*
       
       # Destination cluster and namespace to deploy the application
       destination:
