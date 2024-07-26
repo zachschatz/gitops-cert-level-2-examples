@@ -22,3 +22,8 @@ spec:
     syncOptions:
       - CreateNamespace=true  
    
+ignoreDifferences:
+    jsonPointers:
+    - /metadata/annotations/creation
+    - /data/my-username
+    - /data/my-password
